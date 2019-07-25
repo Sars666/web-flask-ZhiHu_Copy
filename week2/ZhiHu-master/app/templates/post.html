@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% import "_macros.html" as macros %}
+
+{% block title %}知乎 - 问题{% endblock %}
+
+{% block page_content %}
+{% include '_post.html' %}
+
+<div style="LINE-HEIGHT: 12px;float:right;" id="bdshare" class="bdshare_b">
+    <img src="http://bdimg.share.baidu.com/static/images/type-button-1.jpg">
+    </div>
+    <script id="bdshare_js" type="text/javascript" data="type=button&uid=664845" src="http://bdimg.share.baidu.com/static/js/bds_s_v2.js?cdnversion=381133">
+    </script>
+    <script type="text/javascript">
+    document.getElementByIdx_x("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+    </script>
+
+<h4 id="comments">写回答</h4>
+{#{% if current_user.can(Permission.COMMENT) %}#}
+<div class="comment-form">
+    {{ wtf.quick_form(form) }}
+</div>
+{#{% endif %}#}
+{% include '_answers.html' %}
+{% if pagination %}
+<div class="pagination">
+    {{ macros.pagination_widget(pagination, '.post', fragment='#comments', id=posts[0].id) }}
+</div>
+{% endif %}
+{% endblock %}
