@@ -1,0 +1,144 @@
+html {
+}
+
+body {
+    background-image: url("../static/img/sign_bg.png");
+    background-color: #afe7fa;
+    background-size: 99% auto;
+    background-attachment: fixed;
+}
+
+.main_in {
+    margin: 108px 495px;
+    height: 400px;
+    width: 431px;
+    border: 1px solid white;
+    border-radius: 1px;
+    background-color: white;
+}
+
+.main_up {
+    margin: 108px 495px;
+    height: 425px;
+    width: 431px;
+    border: 1px solid white;
+    border-radius: 1px;
+    background-color: white;
+}
+
+.header {
+    margin: 30px auto 0 auto;
+    color: #0084FF;
+    font-family: "黑体";
+    font-size: 23px;
+    align: center;
+}
+
+.slogen {
+    margin-top: 10px;
+    color: #0084FF;
+    font-family: "黑体";
+    font-size: 22px;
+    align: center;
+}
+
+.username {
+    margin-left: 10px;
+    margin-top: 20px;
+    border: transparent;
+    outline: none;
+    font-size: 15px;
+    align-items: center;
+    width: 350px;
+}
+
+.errorMessage {
+    font-size: 15px;
+    color: red;
+    position: absolute;
+    left: 790px;
+    top: 320px;
+}
+
+.password {
+    margin-left: 10px;
+    margin-top: 20px;
+    border: transparent;
+    outline: none;
+    font-size: 15px;
+    align-items: center;
+    width: 350px;
+
+}
+
+.loginBut {
+    margin-left: 0px;
+    margin-top: 10px;
+    border: transparent;
+    outline: none;
+    font-size: 15px;
+    align-items: center;
+    width: 350px;
+    height: 36px;
+    background-color: #0c84fb;
+    color: white;
+}
+
+.loginBut:hover {
+    background-color: #0777e6;
+    cursor: pointer;
+}
+
+.protocol_1 {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 13px;
+    float: left;
+    text-decoration: none;
+    color: #8590a6;
+}
+
+.protocol_2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    float: left;
+    text-decoration: none;
+    color: #1d5399;
+}
+
+.jump_signup {
+    margin: 60px -1px;
+    height: 60px;
+    width: 430px;
+    background-color: #f6f6f6;
+    border: 1px solid #f6f6f6;
+
+}
+
+.jump_signin {
+    margin: 60px -1px;
+    height: 60px;
+    width: 430px;
+    background-color: #f6f6f6;
+    border: 1px solid #f6f6f6;
+
+}
+
+.label {
+    margin-top: 20px;
+    margin-left: 150px;
+    float: left;
+    font-family: "黑体";
+    font-size: 16px;
+}
+
+.login {
+    margin-top: 20px;
+    margin-left: 5px;
+    float: left;
+    text-decoration: none;
+    color: #1d5399;
+    font-family: "黑体";
+    font-size: 16px;
+}

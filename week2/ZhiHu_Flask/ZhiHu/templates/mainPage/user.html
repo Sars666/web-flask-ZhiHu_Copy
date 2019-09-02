@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="user_Wrapper">
+    <div class="user_header">
+        <div>
+            <img class="user_background" src="/static/img/user_bg.jpg">
+        </div>
+        <div class="user_infomation">
+            <div class="user_head">
+                {{ user['headurl'] }}
+            </div>
+            <div class="user_detailWrapper">
+                <div class="user_detail">
+                    <div class="user_name">sars{{ user['username'] }}</div>
+                    <div class="user_sign">慢慢来,比较快{{ user['sign'] }}</div>
+                </div>
+                <div class="user_edit">
+                    <a href="{{ url_for('user.edit_user') }}">
+                        <button class="user_editBut">编辑个人资料</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="user_main">
+        <div class="user_contentWrapper">
+            <div class="user_contentNav"></div>
+            <div class="content">
+                <div class="user_answers"></div>
+                <div class="user_questions"></div>
+                <div class="user_follows"></div>
+                <div class="user_followers"></div>
+            </div>
+        </div>
+        <div class="user_side">
+            <div class="user_statics"></div>
+            <div class="user_follow"></div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

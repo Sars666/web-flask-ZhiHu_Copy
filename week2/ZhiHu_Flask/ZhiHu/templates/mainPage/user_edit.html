@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="user_Wrapper">
+    <div class="user_header">
+        <div>
+            <img class="user_background" src="/static/img/user_bg.jpg">
+        </div>
+        <div class="user_editMain">
+            <div class="user_head"></div>
+            <div class="user_detailWrapper">
+                <div class="user_detail">
+                    <div class="user_name">sars{{ user['username'] }} {{ edit_modify() }}
+                        <a href="{{ url_for('user.show_user') }}">
+                            <button class="user_returnBut">返回我的主页</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="user_editFields">
+                    <div  class="user_editField">
+                        <div class="Field_name">用户名</div>
+                        <div class="Field_content">
+                            <span class="Field_text">{{ user['nickname']}}</span>
+                            {{ edit_modify() }}
+                        </div>
+                    </div>
+                    <div class="user_editField">
+                        <div class="Field_name">签名</div>
+                        <div class="Field_content">
+                            <span class="Field_text">{{ user['sign']}} xx</span>
+                            {{ edit_modify() }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% macro edit_modify() %}
+<button class="Field_modify">
+    <svg viewBox="0 0 12 12" height="16" width="12">
+        <g>
+            <path d="M.423 10.32L0 12l1.667-.474 1.55-.44-2.4-2.33-.394 1.564zM10.153.233c-.327-.318-.85-.31-1.17.018l-.793.817 2.49 2.414.792-.814c.318-.328.312-.852-.017-1.17l-1.3-1.263zM3.84 10.536L1.35 8.122l6.265-6.46 2.49 2.414-6.265 6.46z"
+                  fill-rule="evenodd"></path>
+        </g>
+    </svg>
+    修改
+</button>
+{% endmacro %}
+

@@ -1,0 +1,146 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="QuestionHeader_Wrapper">
+    <div class='QuestionHeader'>
+        <div class="QuestionHeader_contentWrapper">
+            <div class="QuestionHeader_content">
+                <div class="QuestionHeader_main">
+                    <div class="Question_topicWrapper">
+                        <!--{% for topic in topics %}-->
+                        <!--<div class="Question_topic"><a href="/">{{topic}}</a></div>-->
+                        <!--{% endfor %}-->
+                        <div class="Question_topic"><a href="/">topic</a></div>
+                        <div class="Question_topic"><a href="/">为啥呢</a></div>
+                        <div class="Question_topic"><a href="/">测试</a></div>
+                    </div>
+                    <h1 class="Question_title">{{question['title']}}</h1>
+                    <div class="Question_detail">{{question['detail']}}</div>
+                </div>
+                <div class="QuestionHeader_side">
+                    <div class="QuestionHeader_followers">
+                        <div class="QuestionHeader_sideName">关注者</div>
+                        <div id='followNum' class="QuestionHeader_sideNum"></div>
+                    </div>
+                    <div class="QuestionHeader_views">
+                        <div class="QuestionHeader_sideName">被浏览</div>
+                        <div id="viewNum" class="QuestionHeader_sideNum" content="123123"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="QuestionHeader_footerWrapper">
+            <div class="QuestionHeader_footer">
+                <button class="Question_followBut" type="button">关注问题</button>
+                <button class="Question_answerBut" type="button" onclick="addAnswer()">
+                    <svg class="Question_footerSvg" fill="currentColor" viewBox="0 0 12 12" width="14px" height="16px">
+                        <path fill-rule="evenodd"
+                              d="M.423 10.32L0 12l1.667-.474 1.55-.44-2.4-2.33-.394 1.564zM10.153.233c-.327-.318-.85-.31-1.17.018l-.793.817 2.49 2.414.792-.814c.318-.328.312-.852-.017-1.17l-1.3-1.263zM3.84 10.536L1.35 8.122l6.265-6.46 2.49 2.414-6.265 6.46z"></path>
+                    </svg>
+                    写回答
+                </button>
+                <button class="Question_inviteBut" type="button">
+                    <svg class="Question_footerSvg" fill="currentColor" viewBox="0 0 24 24" width="1.2em"
+                         height="1.2em">
+                        <path fill-rule="evenodd"
+                              d="M4 10V8a1 1 0 1 1 2 0v2h2a1 1 0 0 1 0 2H6v2a1 1 0 0 1-2 0v-2H2a1 1 0 0 1 0-2h2zm10.455 2c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm-7 6c0-2.66 4.845-4 7.272-4C17.155 14 22 15.34 22 18v1.375c0 .345-.28.625-.625.625H8.08a.625.625 0 0 1-.625-.625V18z"></path>
+                    </svg>
+                    邀请回答
+                </button>
+                <button class="Question_commentBut">
+                    <svg class="Question_footerSvg" fill="currentColor" viewBox="0 0 24 24" width="1.2em"
+                         height="1.2em">
+                        <path fill-rule="evenodd"
+                              d="M10.241 19.313a.97.97 0 0 0-.77.2 7.908 7.908 0 0 1-3.772 1.482.409.409 0 0 1-.38-.637 5.825 5.825 0 0 0 1.11-2.237.605.605 0 0 0-.227-.59A7.935 7.935 0 0 1 3 11.25C3 6.7 7.03 3 12 3s9 3.7 9 8.25-4.373 9.108-10.759 8.063z"></path>
+                    </svg>
+                    53条评论
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="Question_Answer" id="answers">
+
+    <div class="AnswerList">
+        <form method="post" name="answer_form" action="/question/{{ question['questionID'] }}/">
+        <div class="Question_addAnswer" id="addAnswer">
+            <div class="addAnswer_Wrapper">
+                <div class="Answer_header">
+                    <div class="Answer_head"></div>
+                    <div class="Answer_info">
+                        <div class="Answer_name">{{ g.user['username'] }}</div>
+                        <div class="Answer_sign">{{ g.user['sign'] }}</div>
+                    </div>
+                </div>
+                <div class="addAnswer_InputWrapper">
+                    <textarea name="answer" class="addAnswer_Input" placeholder="写回答...">{{ request.form[answer] }}</textarea>
+                </div>
+                <div class="addAnswer_footer">
+                    <input class="addAnswer_submitBut" type="submit" value="提交回答">
+                </div>
+            </div>
+        </div>
+        </form>
+
+        <div class="AnswerList_header">
+            <label> 1032个回答</label>
+        </div>
+        <div class="AnswerList_main">
+            {% for answer in answers %}
+            <div class="AnswerWrapper">
+                <div class="Answer_header">
+                    <div class="Answer_head"></div>
+                    <div class="Answer_info">
+                        <div class="Answer_name">{{ answer['username']}}</div>
+                        <div class="Answer_sign">{{ answer['sign']}}</div>
+                    </div>
+                </div>
+                <div class="Answer_content">
+                    <div class="Answer_upvote">{{ answer['upvote'] }} 人赞同了该回答</div>
+                    <div class="Answer_detail">{{ answer['answer']}}</div>
+                    <div class="Answer_date">发布于 {{answer['created'].strftime('%Y-%m-%d') }}</div>
+                </div>
+                <div class="Answer_footer">
+                    <button class="Answer_upvoteBut">
+                        <svg class="Answer_upvoteSvg" fill="currentColor" viewBox="0 0 24 24" width="10px"
+                             height="10px">
+                            <path fill-rule="evenodd"
+                                  d="M2 18.242c0-.326.088-.532.237-.896l7.98-13.203C10.572 3.57 11.086 3 12 3c.915 0 1.429.571 1.784 1.143l7.98 13.203c.15.364.236.57.236.896 0 1.386-.875 1.9-1.955 1.9H3.955c-1.08 0-1.955-.517-1.955-1.9z"></path>
+                        </svg>
+                        赞同 999
+                    </button>
+                    <button class="Answer_downvoteBut">
+                        <svg class="Answer_downvoteSvg" fill="currentColor" viewBox="0 0 24 24" width="10" height="10">
+                            <path fill-rule="evenodd"
+                                  d="M20.044 3H3.956C2.876 3 2 3.517 2 4.9c0 .326.087.533.236.896L10.216 19c.355.571.87 1.143 1.784 1.143s1.429-.572 1.784-1.143l7.98-13.204c.149-.363.236-.57.236-.896 0-1.386-.876-1.9-1.956-1.9z"></path>
+                        </svg>
+                    </button>
+                    <button class="Answer_commentBut">
+                        <svg class="Answer_commentSvg" fill="currentColor" viewBox="0 0 24 24" width="1.2em"
+                             height="1.2em">
+                            <path fill-rule="evenodd"
+                                  d="M10.241 19.313a.97.97 0 0 0-.77.2 7.908 7.908 0 0 1-3.772 1.482.409.409 0 0 1-.38-.637 5.825 5.825 0 0 0 1.11-2.237.605.605 0 0 0-.227-.59A7.935 7.935 0 0 1 3 11.25C3 6.7 7.03 3 12 3s9 3.7 9 8.25-4.373 9.108-10.759 8.063z"></path>
+                        </svg>
+                        53条评论
+                    </button>
+                </div>
+            </div>
+              {% endfor %}
+        </div>
+    </div>
+    <div class="Question_Relate" id="relate">
+        <div class="Question_Relate_header">
+            <label>相关问题</label>
+        </div>
+        <div class="Relate_QuestionWrapper">
+            <div class="Relate_Question">
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
