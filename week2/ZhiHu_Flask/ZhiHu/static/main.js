@@ -40,6 +40,29 @@ function openDialog() {
         document.getElementById('relate').style.position = 'relative';
         document.getElementById('relate').style.top = '-220px';
     }
+    function showEdit(var1) {
+        var var2 = var1 +'_c';
+        document.getElementById(var1).style.display = '-webkit-box';
+        document.getElementById(var2).style.display = 'none';
+    }
+    function hideEdit(var1) {
+        var var2 = var1 +'_c';
+        document.getElementById(var1).style.display = 'none';
+        document.getElementById(var2).style.display = 'inline';
+    }
+    function showEditBut(var1){
+        document.getElementById(var1).style.display = 'inline'
+    }
+    function hideEditBut(var1){
+        document.getElementById(var1).style.display = 'none'
+    }
+    function showSaveImg(){
+        document.getElementById('headImg').style.display = 'inline'
+    }
+function hideSaveImg(){
+            document.getElementById('headImg').style.display = 'none'
+
+}
     document.getElementById('followNum').innerHTML = addCommas('213213');
     document.getElementById('viewNum').innerHTML = addCommas('24325909');
 

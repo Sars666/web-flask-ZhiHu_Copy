@@ -5,12 +5,14 @@ from werkzeug.exceptions import abort
 
 from ZhiHu.auth import login_required
 from ZhiHu.db import get_db
-from ZhiHu.question import get_answers,get_questions
+from ZhiHu.question import get_answers,get_questions,get_all_answers
 
 bp = Blueprint('mainPage', __name__)
 
 @bp.route('/',methods=('GET','POST'))
 def asking():
+    answers = get_all_answers()
+
     if request.method == 'POST':
         ask_title = request.form['ask_title']
         ask_detail = request.form['ask_detail']
@@ -31,10 +33,17 @@ def asking():
                 (ask_title, ask_detail)
             )
             db.commit()
-            return redirect(url_for('mainPage.asking'))
+
+            questionID = db.execute(
+                'SELECT title'
+                ' FROM question'
+                ' WHERE title = ?',
+                    (ask_title,)
+            )
+            return redirect(url_for('mainPage.question',questionID = questionID[0]))
 
     elif request.method == 'GET':
-        return render_template('mainPage/frontPage.html',)
+        return render_template('mainPage/frontPage.html', answers=answers)
 
 def get_mainPageElements():
     questions = get_questions()

@@ -1,8 +1,9 @@
 import sqlite3
 
-import click
+import click,os
 from flask import current_app, g
 from flask.cli import with_appcontext
+
 
 
 def get_db():
@@ -33,6 +34,11 @@ def init_db():
 def init_db_command():
     #清理旧表,建立新表用以存储数据
     init_db()
+    basepath = os.path.dirname(__file__)
+    path = os.path.join(basepath,'static/img/uploads/')
+    for img in os.listdir(path):
+        img_path = os.path.join(path,img)
+        os.remove(img_path)
     click.echo('数据库初始完成')
 
 def init_app(app):

@@ -8,14 +8,14 @@ CREATE TABLE user (
   userID   INTEGER      NOT NULL PRIMARY KEY AUTOINCREMENT,
   username VARCHAR(45)  NOT NULL UNIQUE      DEFAULT '',
   password VARCHAR(128) NOT NULL             DEFAULT '',
-  headUrl  TEXT         NOT NULL             DEFAULT '',
+  headUrl  TEXT         NOT NULL             DEFAULT '/static/img/default_head.jpg',
   nickname VARCHAR(256) NOT NULL             DEFAULT 'User',
-  sign     TEXT         NOT NULL             DEFAULT ''
+  sign     TEXT         NOT NULL             DEFAULT '请用一句简单的话描述自己'
 );
 
 CREATE TABLE question (
   questionID   INTEGER   NOT NULL PRIMARY KEY AUTOINCREMENT,
-  title        TEXT      NOT NULL,
+  title        TEXT      NOT NULL UNIQUE ,
   detail       TEXT      NOT NULL             DEFAULT '',
   created      TIMESTAMP NOT NULL             DEFAULT CURRENT_TIMESTAMP,
   commentCount INTEGER   NOT NULL             DEFAULT 0,

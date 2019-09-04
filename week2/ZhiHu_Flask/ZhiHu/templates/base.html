@@ -105,14 +105,18 @@
         </div>
 
         <div class="rightArea">
+            <ul>
             {% if g.user %}
-            <span><li><a href="{{ url_for('user.show_user') }}">{{ g.user['username'] }}</a></li></span>
+            <li><a href="{{ url_for('user.show_user') }}">
+                    <img width="30" height="30" src="{{ g.user['headurl'] }}">
+                </a>
+            </li>
             <li><a href="{{ url_for('auth.logout') }}">退出</a></li>
-            <li><a href="{{ g.user['headUrl'] }}"></a></li>
             {% else %}
             <li><a href="{{ url_for('auth.register') }}">注册</a></li>
             <li><a href="{{ url_for('auth.login') }}">登录</a></li>
             {% endif %}
+                </ul>
         </div>
 
     </div>

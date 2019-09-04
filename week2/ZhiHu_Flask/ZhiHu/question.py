@@ -55,7 +55,7 @@ def get_question(questionID):
 
 def get_answers(questionID):
     answers = get_db().execute(
-        'SELECT a.questionID,answer, a.created, upvote'
+        'SELECT a.questionID,answer, a.created, upvote,q.title'
         ' FROM answer a'
         ' JOIN question q ON a.questionID = q.questionID'
         ' WHERE a.questionID = ?'
@@ -64,6 +64,14 @@ def get_answers(questionID):
     ).fetchall()
     return answers
 
+def get_all_answers():
+     answers = get_db().execute(
+        'SELECT a.questionID,answer, a.created, upvote,q.title'
+        ' FROM answer a'
+        ' JOIN question q ON a.questionID = q.questionID'
+        ' ORDER BY a.created DESC ',
+    ).fetchall()
+     return answers
 '''
 @bp.route('/<int:id>/update', methods=('GET', 'POST'))
 @login_required
