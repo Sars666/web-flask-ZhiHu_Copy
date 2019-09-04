@@ -7,9 +7,12 @@ body {
     background-size: 99% auto;
     background-attachment: fixed;
 }
-
+.content{
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}
 .main_in {
-    margin: 108px 495px;
+    margin: 108px 0;
     height: 400px;
     width: 431px;
     border: 1px solid white;
@@ -18,7 +21,7 @@ body {
 }
 
 .main_up {
-    margin: 108px 495px;
+    margin: 108px 0;
     height: 425px;
     width: 431px;
     border: 1px solid white;

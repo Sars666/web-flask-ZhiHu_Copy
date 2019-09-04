@@ -5,6 +5,8 @@ from werkzeug.exceptions import abort
 
 from ZhiHu.auth import login_required
 from ZhiHu.db import get_db
+from ZhiHu.user import get_user
+
 
 bp = Blueprint('question', __name__)
 
@@ -13,28 +15,37 @@ bp = Blueprint('question', __name__)
 def add_answer(questionID):
     question = get_question(questionID)
     answers = get_answers(questionID)
+    userID = session.get('userID')
+    user = get_user(userID)
 
-    if request.method == 'POST':
-        userID = session.get('userID')
-        answer = request.form['answer']
-        error = None
 
-        if answer == '' or (answers is None):
-            error = '请输入回答'
-        if error is not None:
-            flash(error)
-        else:
-            db = get_db()
-            db.execute(
-                'INSERT INTO answer(userID, questionID, answer) VALUES (?, ?, ?)',
-                (userID, questionID, answer)
-            )
-            db.commit()
+    if request.method =='GET':
+        return render_template('mainPage/question.html',question=question,
+                               answers=answers,user = user)
 
-        return redirect(url_for('question.add_answer',questionID=questionID))
+    elif request.method == 'POST':
+        if request.form.get('answer') is not None:
+            answer = request.form['answer']
+            error = None
 
-    elif request.method =='GET':
-        return render_template('mainPage/question.html',question=question,answers=answers)
+            if answer == '' or (answers is None):
+                error = '请输入回答'
+            if error is not None:
+                flash(error)
+            else:
+                db = get_db()
+                db.execute(
+                    'INSERT INTO answer(userID, questionID, answer) VALUES (?, ?, ?)',
+                    (userID, questionID, answer)
+                )
+                db.commit()
+
+                return redirect(url_for('question.add_answer',questionID = questionID))
+
+        elif request.form.get('ask_title') is not None:
+            return redirect(url_for('mainPage.asking'))
+
+
 
 def get_questions():
     questions = get_db().execute(
@@ -46,7 +57,7 @@ def get_questions():
 
 def get_question(questionID):
     question = get_db().execute(
-        'SELECT questionID, title, detail, created '
+        'SELECT questionID, title, detail, created,commentCount '
         ' FROM question'
         ' WHERE questionID = ?',
         (questionID,)
@@ -55,9 +66,10 @@ def get_question(questionID):
 
 def get_answers(questionID):
     answers = get_db().execute(
-        'SELECT a.questionID,answer, a.created, upvote,q.title'
+        'SELECT a.questionID,answer, a.created, upvote,q.title,u.nickname,u.sign,u.headurl'
         ' FROM answer a'
         ' JOIN question q ON a.questionID = q.questionID'
+        ' JOIN user u ON u.userID = a.userID'
         ' WHERE a.questionID = ?'
         ' ORDER BY a.created DESC ',
         (questionID,)
@@ -66,9 +78,10 @@ def get_answers(questionID):
 
 def get_all_answers():
      answers = get_db().execute(
-        'SELECT a.questionID,answer, a.created, upvote,q.title'
+        'SELECT a.questionID,answer, a.created, upvote,q.title,u.nickname,u.sign,u.headurl'
         ' FROM answer a'
         ' JOIN question q ON a.questionID = q.questionID'
+        ' JOIN user u ON u.userID = a.userID'
         ' ORDER BY a.created DESC ',
     ).fetchall()
      return answers

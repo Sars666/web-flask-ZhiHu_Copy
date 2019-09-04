@@ -123,11 +123,13 @@ body {
     -webkit-box-align: start;
     -webkit-box-pack: start;
 }
-.rightArea ul{
+
+.rightArea ul {
     margin: 0;
     padding: 0;
     height: 40px;
 }
+
 .rightArea li {
     float: left;
     margin-left: 20px;
@@ -182,7 +184,6 @@ body {
 }
 
 .Asking_head {
-    background-color: red;
     width: 40px;
     height: 40px;
     margin-right: 16px;
@@ -351,6 +352,69 @@ body {
     padding: 12px
 }
 
+/* 首页问题展示 */
+.show_main {
+    margin-top: 100px;
+    min-width: 1000px;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+}
+
+.show_answerList {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    width: 693px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.show_answerHeader {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    height: 50px;
+    padding: 0 20px;
+    background-color: white;
+    border-bottom: solid 1px #EBEBEB;
+}
+
+.show_answerHeader button {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 50px;
+    background: none;
+    border: none;
+    height: 50px;
+    margin: 0 20px;
+}
+.show_answerHeader button:hover {
+    cursor: pointer;
+}
+
+.show_answerWrapper {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    background: #fff;
+    padding: 20px;    border-bottom: 1px solid #EBEBEB;
+
+}
+
+.show_title {
+    height: 28px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.show_title a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.show_answer {
+    font-size: 14px;
+}
+.show_footer{
+}
 /*问题的详情*/
 .QuestionHeader_Wrapper {
     position: absolute;
@@ -627,13 +691,13 @@ body {
     -webkit-box-orient: vertical;
     background-color: white;
     width: 100%;
-
+    padding-bottom: 20px;
+    border-bottom: solid 1px #EBEBEB;
 }
 
 .Answer_header {
     display: -webkit-box;
     -webkit-box-orient: horizontal;
-
     padding-top: 20px;
     padding-left: 20px;
 }
@@ -641,7 +705,6 @@ body {
 .Answer_head {
     height: 40px;
     width: 40px;
-    background-color: red;
 }
 
 .Answer_info {
@@ -698,7 +761,8 @@ body {
     -webkit-box-orient: horizontal;
     -webkit-box-pack: start;
     margin: 0 20px;
-    border-bottom: solid 1px #EBEBEB;
+    margin-top: 20px;
+
 }
 
 .Answer_upvoteBut {
@@ -712,7 +776,6 @@ body {
     color: #0c84fb;
     text-decoration: none;
     height: 34px;
-    margin: 20px 0;
 }
 
 .Answer_upvoteBut:hover {
@@ -893,7 +956,8 @@ body {
     -webkit-box-align: center;
 
 }
-.user_headImg{
+
+.user_headImg {
     height: 160px;
     width: 160px;
     position: relative;
@@ -901,12 +965,14 @@ body {
     left: 23px;
 
 }
-.user_headSvg{
+
+.user_headSvg {
     margin-bottom: 20px;
     cursor: pointer;
-display: -webkit-box;
+    display: -webkit-box;
     -webkit-box-pack: center;
 }
+
 .user_detailWrapper {
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -941,7 +1007,7 @@ display: -webkit-box;
     width: 100%;
     text-align: right;
     position: relative;
-    top:-20px;
+    top: -20px;
 }
 
 .user_editBut {
@@ -1007,7 +1073,6 @@ display: -webkit-box;
     -webkit-box-align: center;
     background-color: white;
     width: 295px;
-    margin-top: 10px;
 }
 
 .user_stat {
@@ -1020,7 +1085,6 @@ display: -webkit-box;
 
 /*  <-暂时给个白框*/
 
-
 /* 修改用户信息 */
 
 .user_editMain {
@@ -1031,10 +1095,12 @@ display: -webkit-box;
     background-color: white;
     padding-bottom: 20px;
 }
-.user_editHead{
+
+.user_editHead {
     display: none;
 }
-.user_headSave{
+
+.user_headSave {
     height: 34px;
     border: 1px solid #0c84fb;
     border-radius: 4px;
@@ -1043,14 +1109,17 @@ display: -webkit-box;
     background-color: #0c84fb;
     color: white;
     position: relative;
-    top:60px;
+    top: 60px;
     left: -2px;
     padding: 0 65px;
     display: none;
 }
-.user_headSave:hover{
+
+.user_headSave:hover {
     background-color: #0777e6;
-    cursor: pointer;}
+    cursor: pointer;
+}
+
 .user_editFields {
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -1155,7 +1224,8 @@ display: -webkit-box;
 .Field_submit:hover {
 
     background-color: #0777e6;
-    cursor: pointer;}
+    cursor: pointer;
+}
 
 .Field_cancel {
     height: 34px;

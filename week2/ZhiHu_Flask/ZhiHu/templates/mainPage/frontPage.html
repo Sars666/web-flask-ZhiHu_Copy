@@ -1,11 +1,53 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
-{% for answer in answers %}
-    <div>answer['title']
+<div class="show_main">
+    <div class="show_answerList">
+        <div class="show_answerHeader">
+            <button> 推荐</button>
+            <button> 等你来答</button>
+        </div>
+        {% for answer in answers %}
+        <div class="show_answerwrapper">
+            <div class="show_title">
+                <a href="{{url_for('question.add_answer',questionID=answer['questionID'])}}">{{answer['title']}}</a>
+            </div>
+            <div class="show_answer">
+                <p>{{ answer['nickname'] }}： {{ answer['answer'] }}</p>
+            </div>
+            <div class="show_footer">
+                <button class="Answer_upvoteBut">
+                    <svg class="Answer_upvoteSvg" fill="currentColor" viewBox="0 0 24 24" width="10px"
+                         height="10px">
+                        <path fill-rule="evenodd"
+                              d="M2 18.242c0-.326.088-.532.237-.896l7.98-13.203C10.572 3.57 11.086 3 12 3c.915 0 1.429.571 1.784 1.143l7.98 13.203c.15.364.236.57.236.896 0 1.386-.875 1.9-1.955 1.9H3.955c-1.08 0-1.955-.517-1.955-1.9z"></path>
+                    </svg>
+                    赞同 {{ answer['upvote'] }}
+                </button>
+                <button class="Answer_downvoteBut">
+                    <svg class="Answer_downvoteSvg" fill="currentColor" viewBox="0 0 24 24" width="10" height="10">
+                        <path fill-rule="evenodd"
+                              d="M20.044 3H3.956C2.876 3 2 3.517 2 4.9c0 .326.087.533.236.896L10.216 19c.355.571.87 1.143 1.784 1.143s1.429-.572 1.784-1.143l7.98-13.204c.149-.363.236-.57.236-.896 0-1.386-.876-1.9-1.956-1.9z"></path>
+                    </svg>
+                </button>
+                <button class="Answer_commentBut">
+                    <svg class="Answer_commentSvg" fill="currentColor" viewBox="0 0 24 24" width="1.2em"
+                         height="1.2em">
+                        <path fill-rule="evenodd"
+                              d="M10.241 19.313a.97.97 0 0 0-.77.2 7.908 7.908 0 0 1-3.772 1.482.409.409 0 0 1-.38-.637 5.825 5.825 0 0 0 1.11-2.237.605.605 0 0 0-.227-.59A7.935 7.935 0 0 1 3 11.25C3 6.7 7.03 3 12 3s9 3.7 9 8.25-4.373 9.108-10.759 8.063z"></path>
+                    </svg>
+                    0 条评论
+                </button>
+            </div>
+        </div>
+        <div class="show_answer_detail"></div>
+        {% endfor %}
     </div>
-{% endfor %}
 
+    <div class="user_side">
+        <div class="user_statics"></div>
+        <div class="user_follow"></div>
+    </div>
+</div>
 {% endblock %}
 

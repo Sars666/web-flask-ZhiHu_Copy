@@ -7,7 +7,7 @@ function openDialog() {
         document.getElementById('ask_bg').style.display = 'none';
     }
     function controlLen() {
-        var inputText = document.getElementById('question').value;
+        var inputText = document.getElementById('ask_title').value;
         if (inputText.length > 3) {
             document.getElementById('ask').style.height = '265px';
             document.getElementById('ask_header').style.height = '53px';

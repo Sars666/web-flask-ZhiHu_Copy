@@ -44,11 +44,13 @@
             <a href="JavaScript:void(0)" onclick="openDialog()">
                 <button class="middleArea_askBut" type="button">提问</button>
             </a>
-            <form method="post">
+            <form method="post" action="{{ url_for('mainPage.asking') }}">
                 <div id="ask" class="Asking">
                     <div id='ask_header' class="Asking_header">
-                        <div class="Asking_head"></div>
-                        <input id="ask_title" class="Asking_Question" placeholder="写下你的问题，准确地描述问题更容易得到解答"
+                        <div class="Asking_head"  style="background:url({{ user['headurl'] }});
+            background-size: 40px 40px;"></div>
+                        <input id="ask_title" class="Asking_Question"
+                               placeholder="写下你的问题，准确地描述问题更容易得到解答"
                                onkeydown="controlLen();" name="ask_title"
                                value="{{ request.form['ask_title'] }}" required>
                     </div>
