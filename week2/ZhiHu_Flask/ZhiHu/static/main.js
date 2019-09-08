@@ -9,7 +9,7 @@ function openDialog() {
     function controlLen() {
         var inputText = document.getElementById('ask_title').value;
         if (inputText.length > 3) {
-            document.getElementById('ask').style.height = '265px';
+            document.getElementById('ask').style.height = '275px';
             document.getElementById('ask_header').style.height = '53px';
             document.getElementById('ask_detail').style.display = 'block';
             document.getElementById('ask_topic').style.display = 'block';
@@ -38,7 +38,7 @@ function openDialog() {
         document.getElementById('addAnswer').style.display = 'block';
         document.getElementById('answers').style.top = '400px';
         document.getElementById('relate').style.position = 'relative';
-        document.getElementById('relate').style.top = '-220px';
+        document.getElementById('relate').style.top = '-165px';
     }
     function showEdit(var1) {
         var var2 = var1 +'_c';

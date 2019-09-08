@@ -3,6 +3,7 @@ import sqlite3
 import click,os
 from flask import current_app, g
 from flask.cli import with_appcontext
+from werkzeug.security import check_password_hash, generate_password_hash
 
 
 
@@ -44,3 +45,21 @@ def init_db_command():
 def init_app(app):
     app.teardown_appcontext(close_db)
     app.cli.add_command(init_db_command)
+
+def init_test():
+    db=get_db()
+    db.execute(
+        'INSERT INTO user(username,password,nickname,sign)'
+        'VALUES (?,?,?,?)',
+            ('test',generate_password_hash('test'),'测试用户','测试签名')
+    )
+    db.execute(
+        'INSERT INTO question(title,detail)'
+        'VALUES (?,?)',
+            ('测试问题','测试问题详情')
+    )
+    db.execute(
+        'INSERT INTO answer(answer,questionID,answerID)'
+        'VALUES (?,?,?)',
+            ('测试答案',1,1)
+    )

@@ -1,6 +1,4 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from openpyxl import Workbook, load_workbook
 import requests,os,re,time
 from pandas import DataFrame
 

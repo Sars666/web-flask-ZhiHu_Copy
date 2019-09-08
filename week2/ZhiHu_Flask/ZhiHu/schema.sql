@@ -1,8 +1,6 @@
 DROP TABLE IF EXISTS user;
 DROP TABLE IF EXISTS question;
 DROP TABLE IF EXISTS answer;
-DROP TABLE IF EXISTS post;
-
 
 CREATE TABLE user (
   userID   INTEGER      NOT NULL PRIMARY KEY AUTOINCREMENT,
@@ -32,15 +30,7 @@ CREATE TABLE answer (
   created    TIMESTAMP NOT NULL             DEFAULT CURRENT_TIMESTAMP,
   upvote     INTEGER   NOT NULL             DEFAULT 0,
   downvote   INTEGER   NOT NULL             DEFAULT 0,
+  commentCount INTEGER   NOT NULL             DEFAULT 0,
   FOREIGN KEY (userID) REFERENCES user (userID),
   FOREIGN KEY (questionID) REFERENCES question (questionID)
-);
-
-CREATE TABLE post (
-  postID      INTEGER      NOT NULL PRIMARY KEY AUTOINCREMENT,
-  ticket      VARCHAR(128) NOT NULL             DEFAULT '',
-  status      INTEGER      NOT NULL             DEFAULT 0,
-  userID      INTEGER      NOT NULL             DEFAULT 0,
-  expiredDate DATETIME     NOT NULL,
-  FOREIGN KEY (userID) REFERENCES user (userID)
 );

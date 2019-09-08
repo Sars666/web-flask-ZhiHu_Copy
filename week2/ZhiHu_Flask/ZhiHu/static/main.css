@@ -387,6 +387,7 @@ body {
     height: 50px;
     margin: 0 20px;
 }
+
 .show_answerHeader button:hover {
     cursor: pointer;
 }
@@ -395,7 +396,8 @@ body {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     background: #fff;
-    padding: 20px;    border-bottom: 1px solid #EBEBEB;
+    padding: 20px;
+    border-bottom: 1px solid #EBEBEB;
 
 }
 
@@ -404,7 +406,8 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
-.show_title a{
+
+.show_title a {
     text-decoration: none;
     color: black;
 
@@ -413,8 +416,10 @@ body {
 .show_answer {
     font-size: 14px;
 }
-.show_footer{
+
+.show_footer {
 }
+
 /*问题的详情*/
 .QuestionHeader_Wrapper {
     position: absolute;
@@ -724,7 +729,7 @@ body {
 .Answer_sign {
     color: #646464;
     font-size: 15px;
-    margin-top: 1px;
+    margin-top: 3px;
 
 }
 
@@ -831,7 +836,7 @@ body {
     width: 296px;
     height: 500px;
     border-radius: 2px;
-    margin-top: 20px;
+    margin-top: 15px;
 
 }
 
@@ -870,6 +875,7 @@ body {
     margin-right: 10px;
     padding-bottom: 10px;
     border-radius: 2px;
+    margin-top:20px;
 }
 
 .addAnswer_InputWrapper {
@@ -1067,20 +1073,60 @@ body {
 .user_followers {
 }
 
-.user_side {
+.user_side_1 {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-box-align: center;
     background-color: white;
     width: 295px;
+}.user_side_2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center;
+    background-color: white;
+    width: 295px;    margin-top: 10px;
+
 }
 
-.user_stat {
+.user_statics {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
     height: 100px;
 }
 
-.user_follow {
-    height: 75px;
+.user_upvotes {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    padding: 0 20px;
+
+}
+
+.user_views {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    padding: 0 20px;
+
+}
+
+.user_title {
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #8590a6;
+    text-align: center;
+}
+
+.user_number {
+    height: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
 }
 
 /*  <-暂时给个白框*/
@@ -1167,7 +1213,7 @@ body {
     display: -webkit-box;
     -webkit-box-orient: horizontal;
     display: block;
-    width: 200px;
+    width: 300px;
 }
 
 .Field_text {

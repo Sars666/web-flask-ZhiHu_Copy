@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed38acf-6b99-42ff-b0f8-2311f88260b2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/img/uploads/1a8caf09170849bd8322a2257058ea3f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/img/uploads/1fd0a9513b9548439f31164ea6f2d5b1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/img/uploads/c50d8bc2ad4243938ae1e0ccf9e6191f.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/mainPage.py" afterPath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/mainPage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/question.py" afterPath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/question.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week1/淘宝爬虫Main 2.py" afterPath="$PROJECT_DIR$/week1/淘宝爬虫Main 2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/db.py" afterPath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/db.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/schema.sql" afterPath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/schema.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/main.css" afterPath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/main.js" afterPath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/style.css" afterPath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/base.html" afterPath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/frontPage.html" afterPath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/frontPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/question.html" afterPath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/question.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/user.html" afterPath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/test.py" afterPath="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week2/ZhiHu_Flask/instance/ZhiHu.sqlite" afterPath="$PROJECT_DIR$/week2/ZhiHu_Flask/instance/ZhiHu.sqlite" />
     </list>
     <ignored path="python生产实习.iws" />
@@ -62,37 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6108108">
-              <caret line="408" column="17" selection-start-line="408" selection-start-column="17" selection-end-line="408" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.189655">
-              <caret line="111" column="32" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="32" />
-              <folding>
-                <element signature="n#style#0;n#svg#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#button#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#button#0;n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#button#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="frontPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/frontPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.172414">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="34" />
+            <state vertical-scroll-proportion="-11.419354">
+              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -101,26 +71,62 @@
       <file leaf-file-name="question.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/question.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.241379">
-              <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+            <state vertical-scroll-proportion="-4.275862">
+              <caret line="23" column="73" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_edit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/user_edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.5172415">
+              <caret line="81" column="57" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="淘宝爬虫Main 2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week1/淘宝爬虫Main 2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.65217394">
+              <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainPage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/mainPage.py">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+            <state vertical-scroll-proportion="-8.068966">
+              <caret line="877" column="17" selection-start-line="877" selection-start-column="17" selection-end-line="877" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/user.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.775862">
+              <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
               <folding>
-                <element signature="e#0#98#0" expanded="true" />
-                <marker date="1567600667604" expanded="true" signature="820:862" placeholder="SELECT title... user" />
-                <marker date="1567600667604" expanded="true" signature="1052:1121" placeholder="INSERT INTO question... " />
-                <marker date="1567600667604" expanded="true" signature="1223:1279" placeholder="select id fr... table" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/question.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="14" />
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
                 <element signature="e#0#98#0" expanded="true" />
                 <marker date="1567610207226" expanded="true" signature="1093:1139" placeholder="INSERT INTO answer... " />
@@ -142,16 +148,6 @@
                 <marker date="1567610207226" expanded="true" signature="3114:3184" placeholder="UPDATE post " />
                 <marker date="1567610207226" expanded="true" signature="3534:3567" placeholder="DELETE FROM " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/schema.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5925927">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="14" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -174,8 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/week2/flaskr_tutorial/tests/test_blog.py" />
-        <option value="$PROJECT_DIR$/week2/ZhiHu-master/app/__init__.py" />
         <option value="$PROJECT_DIR$/week2/zhifou-master/app.py" />
         <option value="$PROJECT_DIR$/week2/flask_ZhiHu_copy/resources/index.html" />
         <option value="$PROJECT_DIR$/week2/flask_ZhiHu_copy/schema.sql" />
@@ -212,19 +206,21 @@
         <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/__init__.py" />
         <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/edit.html" />
         <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/answer.py" />
-        <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/db.py" />
-        <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/user_edit.html" />
         <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/user.py" />
-        <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/schema.sql" />
         <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/style.css" />
-        <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/main.js" />
-        <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/user.html" />
         <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/mainPage.py" />
         <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/base.html" />
         <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/question.py" />
         <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/question.html" />
+        <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/schema.sql" />
+        <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/test.py" />
+        <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/db.py" />
+        <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/user.html" />
         <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/frontPage.html" />
+        <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/user_edit.html" />
         <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/main.css" />
+        <option value="$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/main.js" />
+        <option value="$PROJECT_DIR$/week1/淘宝爬虫Main 2.py" />
       </list>
     </option>
   </component>
@@ -234,8 +230,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="1" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -281,6 +279,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -318,6 +317,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="flaskr_tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python生产实习" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python生产实习" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flaskr_tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,6 +417,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python生产实习" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python生产实习" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flaskr_tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flaskr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -560,10 +607,13 @@
               <option name="myItemId" value="python生产实习" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -574,7 +624,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -908,17 +957,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="1" y="23" width="1400" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24034335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25478646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20913461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916054" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22771084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="517" y="265" width="720" height="409" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22771084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="517" y="265" width="720" height="409" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24797407" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23557693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -928,6 +976,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20913461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -969,48 +1018,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/week2/flaskr_tutorial/MAINFEST.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2/flaskr_tutorial/tests/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.851852">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2/flaskr_tutorial/tests/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2/flaskr_tutorial/tests/test_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2/flaskr_tutorial/tests/test_blog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94527364">
-          <caret line="92" column="27" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2/flaskr_tutorial/tests/test_factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27363184">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week2/flaskr_tutorial/tests/test_db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71144277">
@@ -1139,7 +1146,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="943" column="0" selection-start-line="943" selection-start-column="0" selection-end-line="943" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1147,7 +1153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.78109455">
           <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,9 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30099502">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <marker date="1564550707859" expanded="true" signature="316:460" placeholder="SELECT p.id,... post" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1165,17 +1167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.80845773">
           <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,7 +1174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54215306">
           <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,7 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53366584">
           <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1204,17 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.8965517">
           <caret line="5" column="39" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1222,7 +1200,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.935484">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,7 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.387097">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1238,24 +1214,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47567567">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/main.js">
+    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32300162">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-          <folding />
+        <state vertical-scroll-proportion="-1.5172414">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/mainPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/flaskr_tutorial/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/flaskr_tutorial/tests/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/flaskr_tutorial/tests/test_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45273632">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1567738966000" expanded="true" signature="1127:1203" placeholder="INSERT INTO user... " />
+            <marker date="1567738966000" expanded="true" signature="1303:1360" placeholder="INSERT INTO question... " />
+            <marker date="1567738966000" expanded="true" signature="1424:1495" placeholder="INSERT INTO answer... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="30" selection-end-column="30" />
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
             <marker date="1567308351848" expanded="true" signature="832:874" placeholder="SELECT id FR... user" />
             <marker date="1567308351848" expanded="true" signature="1021:1071" placeholder="INSERT INTO user... " />
             <marker date="1567308351848" expanded="true" signature="1559:1596" placeholder="SELECT * FRO... user" />
@@ -1264,72 +1299,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/edit.html">
+    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5172414">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/user_edit.html">
+    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2646048">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="33" />
+        <state vertical-scroll-proportion="-7.870968">
+          <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/淘宝爬虫Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#label#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/淘宝爬虫.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8387096">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="27" />
+        <state vertical-scroll-proportion="-6.775862">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/answer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#99#0" expanded="true" />
-            <marker date="1567565376415" expanded="true" signature="533:629" placeholder="SELECT userI... user" />
-            <marker date="1567565376415" expanded="true" signature="1575:1626" placeholder="UPDATE user " />
-            <marker date="1567565376415" expanded="true" signature="1575:1628" placeholder="UPDATE user " />
-            <marker date="1567565376415" expanded="true" signature="1575:1656" placeholder="UPDATE user " />
-            <marker date="1567565376415" expanded="true" signature="1575:1662" placeholder="UPDATE user " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5925927">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/question.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="14" />
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="e#0#98#0" expanded="true" />
             <marker date="1567610207226" expanded="true" signature="1093:1139" placeholder="INSERT INTO answer... " />
@@ -1344,57 +1363,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/mainPage.py">
+    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/frontPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#98#0" expanded="true" />
-            <marker date="1567600667604" expanded="true" signature="820:862" placeholder="SELECT title... user" />
-            <marker date="1567600667604" expanded="true" signature="1052:1121" placeholder="INSERT INTO question... " />
-            <marker date="1567600667604" expanded="true" signature="1223:1279" placeholder="select id fr... table" />
-          </folding>
+        <state vertical-scroll-proportion="-11.419354">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/user_edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.189655">
-          <caret line="111" column="32" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#button#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#button#0;n#div#2;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#button#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-3.5172415">
+          <caret line="81" column="57" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/question.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.241379">
-          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/templates/mainPage/frontPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.172414">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="34" />
+        <state vertical-scroll-proportion="-4.275862">
+          <caret line="23" column="73" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6108108">
-          <caret line="408" column="17" selection-start-line="408" selection-start-column="17" selection-end-line="408" selection-end-column="17" />
+        <state vertical-scroll-proportion="-8.068966">
+          <caret line="877" column="17" selection-start-line="877" selection-start-column="17" selection-end-line="877" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/ZhiHu_Flask/ZhiHu/static/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1/淘宝爬虫Main 2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65217394">
+          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
